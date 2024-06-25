@@ -21,6 +21,8 @@ import Link from "next/link";
 const navigation = [
   { name: "Accounts", href: "/email-accounts", icon: UsersIcon },
   { name: "Mails", href: "/extract-mails", icon: InboxIcon },
+  { name: "Mail Replys", href: "/mail-replys", icon: InboxIcon },
+
 ];
 
 function Sidebar({ children }: { children: ReactNode }) {
