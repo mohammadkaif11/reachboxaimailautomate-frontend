@@ -11,17 +11,19 @@ import {
   UsersIcon,
   XMarkIcon,
   InboxIcon
+
 } from "@heroicons/react/24/outline";
 import classNames from "classnames";
 import { useRouter } from "next/router";
 import { Fragment, useEffect, useState } from "react";
 import { Dialog, Menu, Transition } from "@headlessui/react";
 import Link from "next/link";
+import {PencilSquareIcon} from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Accounts", href: "/email-accounts", icon: UsersIcon },
   { name: "Mails", href: "/extract-mails", icon: InboxIcon },
-  { name: "Mail Replys", href: "/mail-replys", icon: InboxIcon },
+  { name: "Mail Replys", href: "/mail-replys", icon: PencilSquareIcon },
 
 ];
 
