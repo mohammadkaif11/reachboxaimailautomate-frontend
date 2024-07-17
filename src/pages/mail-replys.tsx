@@ -91,8 +91,8 @@ function Page() {
                   key={data.id}
                   className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
                 >
-                  <td className="px-6 py-4">{data?.toEmail}</td>
                   <td className="px-6 py-4">{data?.fromEmail}</td>
+                  <td className="px-6 py-4">{data?.toEmail}</td>
                   <td className="px-6 py-4">{data?.subject}</td>
                   <td className="px-6 py-4">{data?.content}</td>
                   <td className="px-6 py-4">
